@@ -203,4 +203,4 @@ Template name: Inspired campaign
     </article>
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer(inspired); ?>
