@@ -186,7 +186,7 @@ Template name: Inspired campaign
             </div>
         </div>
     </article>
-    <article class="lw_two-tiles_light1">
+    <article class="lw_two-tiles_light1 lwmargb40">
         <a id="al5"></a>
         <div class="lw_two-tiles_light2" id="lw_global_img">
             <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="images/gps.jpg" alt=""></div>
