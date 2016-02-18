@@ -4,7 +4,7 @@
 Template name: Inspired campaign
 
  */
- get_header(); ?>
+ get_header(inspired); ?>
 
 <p>This is just a test</p>
 
