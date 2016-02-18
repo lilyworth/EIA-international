@@ -106,7 +106,7 @@
 	<?php } ?>
 
 
-<nav role="navigation">
+<nav class="lwnav" role="navigation">
 
 	<span class="nav-border nav-border--top"></span>
 
