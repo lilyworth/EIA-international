@@ -119,7 +119,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_dark1">
         <a id="al1"></a>
         <div class="lw_two-tiles_dark2" id="lw_investigations_img">
-            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="images/gps.jpg" alt="gps"></div>
+            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="gps"></div>
             <div class="lw_two-tiles_tile">
                 <div class="lw_two-tiles_inner_l">
                     <h2>Investigations</h2>
@@ -133,7 +133,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_light1">
         <a id="al2"></a>
         <div class="lw_two-tiles_light2" id="lw_campaigning_img">
-            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="images/gps.jpg" alt=""></div>
+            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
             <div class="lw_two-tiles_tile2">
                 <div class="lw_two-tiles_inner_r">
                     <h2>Campaigning</h2>
@@ -175,7 +175,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_dark1">
         <a id="al4"></a>
         <div class="lw_two-tiles_dark2" id="lw_cooperation_img">
-            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="images/gps.jpg" alt=""></div>
+            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
             <div class="lw_two-tiles_tile">
                 <div class="lw_two-tiles_inner_l">
                     <h2>Cooperation</h2>
@@ -189,7 +189,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_light1 lwmargb40">
         <a id="al5"></a>
         <div class="lw_two-tiles_light2" id="lw_global_img">
-            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="images/gps.jpg" alt=""></div>
+            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
             <div class="lw_two-tiles_tile2">
                 <div class="lw_two-tiles_inner_r">
                     <h2>Global reach</h2>
