@@ -25,7 +25,7 @@
 
 	<meta name="Copyright" content="Copyright &copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>. All Rights Reserved.">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/_/css/inspired.css" /><!--inspired CSS-->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/css/inspired.css" /><!--inspired CSS-->
 	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Pt+Sans:700">
 	<link rel="stylesheet" media="screen" href="<?php echo get_template_directory_uri(); ?>/_/css/screen.css?dolphin" />
     <link rel="stylesheet" media="print" href="<?php echo get_template_directory_uri(); ?>/_/css/print.css?whale" />
