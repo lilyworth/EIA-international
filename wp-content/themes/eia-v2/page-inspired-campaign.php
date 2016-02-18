@@ -15,7 +15,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>Give £5 a month and help investigators undercover</h2>
                          </div>
-                        <img src="images/skins.jpg" alt="skins">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£5 a month could help pay for digital voice recorder pens used to record meetings with wildlife criminals and corrupt officials.</p>
                     </div>
                 </div>
