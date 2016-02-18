@@ -24,7 +24,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>Give £10 a month and help gather valuable evidence</h2>
                          </div>
-                        <img src="images/skins.jpg" alt="skins">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£10 a month could help pay for photographic equipment such as memory cards that an investigator would need to document criminal activities.</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>Give £15 a month and help investigators on the front line</h2>
                          </div>
-                         <img src="images/skins.jpg" alt="skins">
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£15 a month could help pay for covert GPS systems that can help track illegal timber flows in real time.</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>£10 could pay for a memory card</h2>
                          </div>
-                        <img src="images/gps.jpg" alt="GPS">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>Investigators need photographic equipment to record illegal activity and present evidence of animal trading to international agencies.</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>£25 could buy a USB drive</h2>
                          </div>
-                        <img src="images/gps.jpg" alt="GPS">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>These are used to safely store and transport EIA reports and films that we use to lobby decision makers.</p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h2>£50 could pay for a pair of&nbsp;binoculars</h2>
                          </div>
-                         <img src="images/gps.jpg" alt="GPS">
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>Often our investigators need to observe illegal activity such as logging from a safe distance, but still need to be able to recognise key perpetrators.</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ Template name: Inspired campaign
             </div>
             <div class="lwgrid6">
                 <h3>For every £1 given to EIA we spend:</h3>
-                <div class="lwspend_pie"><img src="images/pie-chart.png" alt="pic chart showing spend"></div>
+                <div class="lwspend_pie"><img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/pie-chart.png" alt="pic chart showing spend"></div>
                 <div class="lwspend_data">
                     <div class="lwspend_data_module_1">
                         <p>72p on investigating and campaigning for environmental protection</p>
