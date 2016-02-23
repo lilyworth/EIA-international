@@ -13,7 +13,7 @@ Template name: Inspired campaign
                 <div class="lwmodule">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>Give £5 a month and help investigators undercover</h2>
+                            <h3>Give £5 a month and help investigators undercover</h3>
                          </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£5 a month could help pay for digital voice recorder pens used to record meetings with wildlife criminals and corrupt officials.</p>
@@ -22,7 +22,7 @@ Template name: Inspired campaign
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>Give £10 a month and help gather valuable evidence</h2>
+                            <h3>Give £10 a month and help gather valuable evidence</h3>
                          </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£10 a month could help pay for photographic equipment such as memory cards that an investigator would need to document criminal activities.</p>
@@ -31,7 +31,7 @@ Template name: Inspired campaign
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>Give £15 a month and help investigators on the front line</h2>
+                            <h3>Give £15 a month and help investigators on the front line</h3>
                          </div>
                          <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
                         <p>£15 a month could help pay for covert GPS systems that can help track illegal timber flows in real time.</p>
@@ -42,7 +42,7 @@ Template name: Inspired campaign
                 <div class="lwmodule">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>£10 could pay for a memory card</h2>
+                            <h3>£10 could pay for a memory card</h3>
                          </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>Investigators need photographic equipment to record illegal activity and present evidence of animal trading to international agencies.</p>
@@ -51,7 +51,7 @@ Template name: Inspired campaign
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>£25 could buy a USB drive</h2>
+                            <h3>£25 could buy a USB drive</h3>
                          </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>These are used to safely store and transport EIA reports and films that we use to lobby decision makers.</p>
@@ -60,7 +60,7 @@ Template name: Inspired campaign
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h2>£50 could pay for a pair of&nbsp;binoculars</h2>
+                            <h3>£50 could pay for a pair of&nbsp;binoculars</h3>
                          </div>
                          <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
                         <p>Often our investigators need to observe illegal activity such as logging from a safe distance, but still need to be able to recognise key perpetrators.</p>
@@ -99,7 +99,7 @@ Template name: Inspired campaign
     <article class="lwmain">
         <div class="lwrow lwpadtb40">
             <div class="lw_intro_content">
-                <h1>Join EIA in the fight against wildlife crime</h1>
+                <h2>Join EIA in the fight against wildlife crime</h2>
                 <p class="lwstrong">Join us as we expose the criminals who threaten our planet.</p>
                 <p>From deforestation and climate change to protecting endangered species and oceans, we’re committed to investigating and exposing any activity that harms our planet. But we need your help.</p>
                 <p>Our investigators work in very challenging conditions to expose illegal practices – often providing valuable information to Interpol and customs agencies worldwide. But we rely on the generous support of the public. It costs between £10,000 and £20,000 to run a single investigation and, without the generosity of people who care about protecting our planet, criminal networks will continue to operate with impunity despite the damage they cause. So please, help us fight environmental and wildlife crime with a gift today.</p>
@@ -150,23 +150,23 @@ Template name: Inspired campaign
         <div class="lwrow lwpadtb40">
             <a id="sos"></a>
             <div class="lwgrid6">
-                <h1>Punching above our weight</h1>
+                <h2>Punching above our weight</h2>
                 <p class="lwstrong">Join us as we expose the criminals who threaten our planet.</p>
                 <p>EIA is a small organisation making a big difference. We don’t have flashy offices or huge salaries but instead, we give great value for money by focusing our resources on the vital work which has made us one of the most effective conservation organisations in the world.</p>
                 <p>To keep making a difference we rely on the generosity and vision of our supporters, who understand the importance of protecting our wildlife and our environment.</p>
             </div>
-            <div class="lwgrid6">
+            <div class="lwspend">
                 <h3>For every £1 given to EIA we spend:</h3>
                 <div class="lwspend_pie"><img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/pie-chart.png" alt="pic chart showing spend"></div>
                 <div class="lwspend_data">
                     <div class="lwspend_data_module_1">
-                        <p>72p on investigating and campaigning for environmental protection</p>
+                        <p>78p on investigating and campaigning for environmental protection</p>
                     </div>
                     <div class="lwspend_data_module_2">
-                        <p>20p on overheads and running costs</p>
+                        <p>17p on overheads and running costs</p>
                     </div>
                     <div class="lwspend_data_module_3">
-                        <p>8p on fundraising and communications</p>
+                        <p>5p on fundraising and communications</p>
                     </div>
                 </div>
             </div>
