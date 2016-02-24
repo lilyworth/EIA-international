@@ -109,18 +109,6 @@ $(".embed").fitVids({ customSelector: "iframe"});
 </script>
 
 
-<?php if(is_front_page() || is_page('our-work')){ ?>
-<script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.2/jquery.flexslider-min.js"></script>
-<?php } ?>
-
-<?php if(is_front_page()){ ?>
-<script src="<?php bloginfo('template_directory'); ?>/_/js/homepage.js?2"></script>
-<?php } ?>
-
-<?php if(is_page('our-work')){ ?>
-<script src="<?php bloginfo('template_directory'); ?>/_/js/our-work.js?2"></script>
-<?php } ?>
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.1/jquery.slicknav.min.js"></script>
 
 <?php if (is_page('donate')): ?>
@@ -147,7 +135,8 @@ $('#postcode_lookup').getAddress({
 
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js?1fZigxmLZkRS"></script>
-<script src="<?php bloginfo('template_directory'); ?>/_/js/inspired-script.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/_/js/inspired/inspired-script.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/_/js/inspired/modernizr-mq.js"></script>
 
 <script>
 

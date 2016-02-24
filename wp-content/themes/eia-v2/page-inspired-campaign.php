@@ -53,7 +53,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>£25 could buy a USB drive</h3>
                          </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/filming-sea.jpg" alt="Filming">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/filming-event.jpg" alt="Filming">
                         <p>These are used to safely store and transport EIA reports and films that we use to lobby decision makers.</p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_dark1">
         <a id="al1"></a>
         <div class="lw_two-tiles_dark2" id="lw_investigations_img">
-            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/filming-event-2.jpg" alt="Filming an event"></div>
+            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/tiger-skin-man.jpg" alt="Filming an event"></div>
             <div class="lw_two-tiles_tile">
                 <div class="lw_two-tiles_inner_l">
                     <h2>Investigations</h2>
@@ -147,9 +147,9 @@ Template name: Inspired campaign
         
     </article>   
     <article class="lwmain">
-        <div class="lwrow lwpadtb40">
+        <div class="lwrow lwpadtb60">
             <a id="sos"></a>
-            <div class="lwgrid6">
+            <div class="lwpunching">
                 <h2>Punching above our weight</h2>
                 <p class="lwstrong">Join us as we expose the criminals who threaten our planet.</p>
                 <p>EIA is a small organisation making a big difference. We don’t have flashy offices or huge salaries but instead, we give great value for money by focusing our resources on the vital work which has made us one of the most effective conservation organisations in the world.</p>
@@ -186,7 +186,7 @@ Template name: Inspired campaign
             </div>
         </div>
     </article>
-    <article class="lw_two-tiles_light1 lwmargb40">
+    <article class="lw_two-tiles_light1">
         <a id="al5"></a>
         <div class="lw_two-tiles_light2" id="lw_global_img">
             <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/global.jpg" alt="EIA work in Africa"></div>

@@ -37,6 +37,7 @@
 .lwpadb20 {padding-bottom:20px;}
 .lwpadtb40 {padding:40px 0;}
 .lwmargb40 {margin-bottom:40px;}
+.lwpadtb60 {padding:60px 0;}
 .lwrounded {-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
 .lwhidden {overflow:hidden;}
 
@@ -87,8 +88,6 @@
 h2 {margin-bottom:@mainmarg;}
 h4 {display: block; -webkit-margin-before: 1.33em; -webkit-margin-after: 1.33em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
 p {display: block; -webkit-margin-before: 2em; -webkit-margin-after: 2em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
-p:last-of-type {margin:0; padding:0;}
-
 img {width:100%; height:auto;}
 
 .lwbutton {display: inline-block; border-radius: 500px; padding: 0.75em 1.5em; color: #FFF; background: #f93; font-weight: 700; text-shadow: rgba(153,76,0,0.8) 1px 1px 2px; border: 0;}
@@ -107,6 +106,7 @@ img {width:100%; height:auto;}
 .lwmoduleheader {background-color:@blue;}
 .lwmoduleheader h3 {font-size:@mainfont + 0.2; color:@white; line-height: @mainlh + 0.2; padding:10px 15px; .lwtxtc; margin:0;}
 .lwmoduleinner p {padding:15px;}
+.lwmoduleinner p:last-of-type {margin:0;}
 .lwfreq {.lwgrid3;}
 .lwfreq label {font-size:@mainfont + 0.2; color:@white; padding-left:@mainpad - 0.5;}
 .lwfreq #lwr1 {padding-right:@mainpad;}
@@ -134,12 +134,14 @@ img {width:100%; height:auto;}
 .lw_subnav li a:after {content: ">"; position:absolute; right:0; color:@blue; top:30%;}
 .lw_intro_content {.lwgrid9; .lwright;}
 .lw_intro_content p:last-of-type {padding:0;}
-.lwspend {.lwgrid6;}
+.lwpunching, .lwspend {.lwgrid6;}
+.lwpunching p:last-of-type {margin:0;}
 .lwspend h3 {margin-bottom:2em;}
 .lwspend_pie {.lwgrid6; .lwright; .lwtxtc;}
 .lwspend_pie img {max-width: 250px;}
 .lwspend_data {.lwgrid6; .lwleft;}
 .lwspend_data_module_1, .lwspend_data_module_2, .lwspend_data_module_3 {.lwfullwidth; padding:0 0 0 @mainpad + 2; position:relative;}
+.lwspend_data_module_3 p {margin-bottom:0;}
 .lwspend_data_module_1:before, .lwspend_data_module_2:before, .lwspend_data_module_3:before {content: ""; width:20px; height:20px; position:absolute; display:block; top:5px; left:0;}
 .lwspend_data_module_1:before {background:#1e9bed;}
 .lwspend_data_module_2:before {background:#56b6f5;}
@@ -154,8 +156,8 @@ img {width:100%; height:auto;}
 .lw_two-tiles_light1 {.lwleft; .lwfullwidth; background:@white; .lwhidden; .lwrelative; color:@black;}
 .lw_two-tiles_light2 {.lwleft; .lwfullwidth; background:@white; .lwrelative; left:50%; color:@black;}
 
-#lw_investigations_img {background:url(../../img/inspired/filming-event-2.jpg) no-repeat @grey; background-position: right; background-size: cover;}
-#lw_campaigning_img {background:url(../../img/inspired/deforestation-large.jpg) no-repeat @grey; background-position: left; background-size: cover;}
+#lw_investigations_img {background:url(../../img/inspired/tiger-skin-man.jpg) no-repeat @grey; background-position: 200px 0; background-size: cover;}
+#lw_campaigning_img {background:url(../../img/inspired/deforestation-large.jpg) no-repeat @grey; background-position: -100px 0; background-size: cover;}
 #lw_cooperation_img {background:url(../../img/inspired/customs.jpg) no-repeat @grey; background-position: center; background-size: cover;}
 #lw_global_img {background:url(../../img/inspired/global.jpg) no-repeat @grey; background-position: center; background-size: cover;}
 .lw_two-tiles_tile {.lwleft; width:50%; .lwrelative; left:50%;}
@@ -173,7 +175,7 @@ img {width:100%; height:auto;}
     .lwspend_pie img {max-width: 170px;}
 }
 @media only screen and (max-width: 767px) {
-    .lwgrid11, .lwgrid10, .lwgrid9, .lwgrid8, .lwgrid7, .lwgrid6, .lwgrid5, .lwgrid4, .lwgrid3, .lwgrid2, .lwgrid1, .lwmodule, .lwfreq, .lwamounts, .lw_intro_content, .lw_subnav {width:96%;}
+    .lwgrid11, .lwgrid10, .lwgrid9, .lwgrid8, .lwgrid7, .lwgrid6, .lwgrid5, .lwgrid4, .lwgrid3, .lwgrid2, .lwgrid1, .lwmodule, .lwfreq, .lwamounts, .lw_intro_content, .lw_subnav, .lwpunching, .lwspend {width:96%;}
 	.lwpush11, .lwpush10, .lwpush9, .lwpush8, .lwpush7, .lwpush6, .lwpush5, .lwpush4, .lwpush3, .lwpush2, .lwpush1 {margin:0;}
     .lw_mob_hide {display:none;}
     .lw_mob_show {display:block;}
@@ -181,12 +183,12 @@ img {width:100%; height:auto;}
     #lwmonthly, #lwsingle, .lwother {width:60%; margin-left:20%; margin-top:@mainmarg + 1;}
     #lwmonthly, #lwsingle {padding-left:13%;}
     .lwrb_fullwidth {display:inline;}
-    .lw_subnav {margin-top:@mainmarg + 2;}
     .lwmodule {margin:0 auto; float:none;}
     .lw_two-tiles_inner_l, .lw_two-tiles_inner_r {padding:@mainmarg + 2.5 @mainmarg + 1.5;}
     .lw_two-tiles_tile, .lw_two-tiles_inner_l, .lw_two-tiles_inner_r, .lw_two-tiles_tile2 {width: 100%; max-width:none;} 
     .lw_two-tiles_dark2, .lw_two-tiles_light2, .lw_two-tiles_tile, .lw_two-tiles_tile2 {position:static;}
     #lw_investigations_img, #lw_campaigning_img, #lw_cooperation_img, #lw_global_img {background: none;}
+    .lwpunching p:last-of-type {-webkit-margin-before: 2em; -webkit-margin-after: 2em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
     .lwspend_pie, .lwspend_data {width:46%;} 
     .lwspend_data {margin-top:0;}
     .lwspend_pie img {max-width: 220px;}
