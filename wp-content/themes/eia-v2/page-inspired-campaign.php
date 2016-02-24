@@ -15,7 +15,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>Give £5 a month and help investigators undercover</h3>
                          </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/caged-tiger.jpg" alt="Caged tiger">
                         <p>£5 a month could help pay for digital voice recorder pens used to record meetings with wildlife criminals and corrupt officials.</p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>Give £10 a month and help gather valuable evidence</h3>
                          </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/dead-elephant.jpg" alt="Dead elephant">
                         <p>£10 a month could help pay for photographic equipment such as memory cards that an investigator would need to document criminal activities.</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>Give £15 a month and help investigators on the front line</h3>
                          </div>
-                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/skins.jpg" alt="skins">
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="Using GPS">
                         <p>£15 a month could help pay for covert GPS systems that can help track illegal timber flows in real time.</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>£10 could pay for a memory card</h3>
                          </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/tiger-skin.jpg" alt="Man holding tiger skin">
                         <p>Investigators need photographic equipment to record illegal activity and present evidence of animal trading to international agencies.</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>£25 could buy a USB drive</h3>
                          </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/filming-sea.jpg" alt="Filming">
                         <p>These are used to safely store and transport EIA reports and films that we use to lobby decision makers.</p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>£50 could pay for a pair of&nbsp;binoculars</h3>
                          </div>
-                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="GPS">
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/logging3.jpg" alt="Logging">
                         <p>Often our investigators need to observe illegal activity such as logging from a safe distance, but still need to be able to recognise key perpetrators.</p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ Template name: Inspired campaign
                         <span class="lwrb_fullwidth"><input type="radio" id="r2" name="frequency"><label>Single</label></span>
                     </div>
                     <div id="lwmonthly">
-                        <div id="lw_amount1" class="lwamount">£3</div>
+                        <div id="lw_amount1" class="lwamount lw_mob_hide">£3</div>
                         <div id="lw_amount2" class="lwamount lwactive">£5</div>
                         <div id="lw_amount3" class="lwamount">£10</div>
                         <div id="lw_amount4" class="lwamount">£15</div>
@@ -83,7 +83,7 @@ Template name: Inspired campaign
                         <div id="lw_amount5" class="lwamount lwactive">£10</div>
                         <div id="lw_amount6" class="lwamount">£25</div>
                         <div id="lw_amount7" class="lwamount">£50</div>
-                        <div id="lw_amount8" class="lwamount">£100</div>
+                        <div id="lw_amount8" class="lwamount lw_mob_hide">£100</div>
                     </div>
                     <div class="lwother">
                         <div class="lwtxtfield">
@@ -119,7 +119,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_dark1">
         <a id="al1"></a>
         <div class="lw_two-tiles_dark2" id="lw_investigations_img">
-            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt="gps"></div>
+            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/filming-event-2.jpg" alt="Filming an event"></div>
             <div class="lw_two-tiles_tile">
                 <div class="lw_two-tiles_inner_l">
                     <h2>Investigations</h2>
@@ -133,7 +133,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_light1">
         <a id="al2"></a>
         <div class="lw_two-tiles_light2" id="lw_campaigning_img">
-            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
+            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/deforestation-large.jpg" alt="Deforestation"></div>
             <div class="lw_two-tiles_tile2">
                 <div class="lw_two-tiles_inner_r">
                     <h2>Campaigning</h2>
@@ -175,7 +175,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_dark1">
         <a id="al4"></a>
         <div class="lw_two-tiles_dark2" id="lw_cooperation_img">
-            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
+            <div class="lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/customs.jpg" alt="Customs checking imports"></div>
             <div class="lw_two-tiles_tile">
                 <div class="lw_two-tiles_inner_l">
                     <h2>Cooperation</h2>
@@ -189,7 +189,7 @@ Template name: Inspired campaign
     <article class="lw_two-tiles_light1 lwmargb40">
         <a id="al5"></a>
         <div class="lw_two-tiles_light2" id="lw_global_img">
-            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/gps.jpg" alt=""></div>
+            <div class="lw_mobile_show lw_two-tiles_tile"><img class="lw_mob_show" src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/global.jpg" alt="EIA work in Africa"></div>
             <div class="lw_two-tiles_tile2">
                 <div class="lw_two-tiles_inner_r">
                     <h2>Global reach</h2>
