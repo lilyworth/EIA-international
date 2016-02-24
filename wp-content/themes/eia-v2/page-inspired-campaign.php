@@ -62,35 +62,52 @@ Template name: Inspired campaign
                          <div class="lwmoduleheader">
                             <h3>£50 could pay for a pair of&nbsp;binoculars</h3>
                          </div>
-                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/logging3.jpg" alt="Logging">
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/logging.jpg" alt="Logging">
                         <p>Often our investigators need to observe illegal activity such as logging from a safe distance, but still need to be able to recognise key perpetrators.</p>
                     </div>
                 </div>
             </div>
             <div class="lwrow lwpadt20">
-                <form>
+                <form id="inspired-recruit-form" action="https://eia-international.org/donate" method="get">
                     <div class="lwfreq">
-                        <input type="radio" id="r1" name="frequency" checked="checked"><label id="lwr1">Monthly</label>
-                        <span class="lwrb_fullwidth"><input type="radio" id="r2" name="frequency"><label>Single</label></span>
+                        <input type="radio" id="r1" name="frequency" value="monthly" checked="yes"><label id="lwr1">Monthly</label>
+                        <!-- span below is purely to help with fluid rendering-->
+                        <span class="lwrb_fullwidth"><input type="radio" id="r2" name="frequency" value="single"><label>Single</label></span>
                     </div>
                     <div id="lwmonthly">
-                        <div id="lw_amount1" class="lwamount lw_mob_hide">£3</div>
-                        <div id="lw_amount2" class="lwamount lwactive">£5</div>
-                        <div id="lw_amount3" class="lwamount">£10</div>
-                        <div id="lw_amount4" class="lwamount">£15</div>
+                        <input type="radio" id="lw_amount1" name="monthly" value="£3">
+                        <label for="lw_amount1"><span>£3</span></label>
+                        
+                        <input type="radio" id="lw_amount2" name="monthly" value="£5">
+                        <label for="lw_amount2"><span>£5</span></label>
+                        
+                        <input type="radio" id="lw_amount3" name="monthly" value="£10" checked="yes">
+                        <label for="lw_amount3"><span>£10</span></label>
+                        
+                        <input type="radio" id="lw_amount4" name="monthly" value="£15">
+                        <label for="lw_amount4"><span>£15</span></label>
+
                     </div>
                     <div id="lwsingle" class="lwhide">
-                        <div id="lw_amount5" class="lwamount lwactive">£10</div>
-                        <div id="lw_amount6" class="lwamount">£25</div>
-                        <div id="lw_amount7" class="lwamount">£50</div>
-                        <div id="lw_amount8" class="lwamount lw_mob_hide">£100</div>
+                        
+                        <input type="radio" id="lw_amount5" name="single" value="£10" checked="yes">
+                        <label for="lw_amount5"><span>£10</span></label>
+                        
+                        <input type="radio" id="lw_amount6" name="single" value="£25">
+                        <label for="lw_amount6"><span>£25</span></label>
+                        
+                        <input type="radio" id="lw_amount7" name="single" value="£50">
+                        <label for="lw_amount7"><span>£50</span></label>
+                        
+                        <input type="radio" id="lw_amount8" name="single" value="£100">
+                        <label for="lw_amount8"><span>£100</span></label>
                     </div>
                     <div class="lwother">
                         <div class="lwtxtfield">
                             <div class="lwpound">£</div>
-                            <input type="text" placeholder="Other">
+                            <input type="text" id="other" name="other amount" placeholder="Other">
                         </div>
-                        <input type="submit" value="Donate" class="lwbtn">
+                        <input type="submit" id="donate" name="donate" value="Donate" class="lwbtn">
                     </div>
                 </form>
             </div>
@@ -125,7 +142,7 @@ Template name: Inspired campaign
                     <h2>Investigations</h2>
                     <p>Diligent, carefully planned undercover investigations are at the heart of EIA’s work, taking us out to the front lines of environmental crime and returning with the credible intelligence and persuasive imagery needed to confirm the findings of our preliminary research and tip-offs from the field.</p>
                     <p>The more complex cases can see investigators setting up false front companies and produce well-researched fake identities, allowing them to infiltrate criminal organisations and get close to the key individuals involved.</p>
-                    <button class="lwbtn">Help us investigate wildlife&nbsp;crime</button>
+                    <a href="<?php echo get_page_link(1525); ?>" class="lwbtn">Help us investigate wildlife&nbsp;crime</a>
                 </div>
             </div>
         </div>
@@ -139,7 +156,7 @@ Template name: Inspired campaign
                     <h2>Campaigning</h2>
                     <p>The evidence sourced in the field is used by EIA to raise awareness and to advocate for meaningful change and policy reforms, lobbying those in power and producing authoritative reports and compelling short films.</p>
                     <p>We also identify and advocate solutions to the problems we expose, a major focus of which is the role played by consumer demand for products harming the environment, from illegal logging to supermarket refrigeration.</p>
-                    <button class="lwbtn">Help us expose illegal&nbsp;threats</button>
+                    <a href="<?php echo get_page_link(1525); ?>" class="lwbtn">Help us expose illegal&nbsp;threats</a>
                 </div>
             </div>
             <div class="lw_mobile_hide lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span></div>
@@ -149,7 +166,7 @@ Template name: Inspired campaign
     <article class="lwmain">
         <div class="lwrow lwpadtb60">
             <a id="sos"></a>
-            <div class="lwpunching">
+            <div class="lwgrid6">
                 <h2>Punching above our weight</h2>
                 <p class="lwstrong">Join us as we expose the criminals who threaten our planet.</p>
                 <p>EIA is a small organisation making a big difference. We don’t have flashy offices or huge salaries but instead, we give great value for money by focusing our resources on the vital work which has made us one of the most effective conservation organisations in the world.</p>
@@ -181,7 +198,7 @@ Template name: Inspired campaign
                     <h2>Cooperation</h2>
                     <p>EIA works closely with a number of other organisations, developing close partnerships with NGOs around the world as well as engaging with wildlife and customs enforcement agencies at national and international levels.</p>
                     <p>For example, we have provided hard intelligence to Interpol and the World Customs Organisation, while our bespoke training films on illegal trades are used by enforcement agencies worldwide. We also work with local communities, providing them with valuable training and empowering them to protect their environment.</p>
-                    <button class="lwbtn">Help us empower local&nbsp;communities</button>
+                    <a href="<?php echo get_page_link(1525); ?>" class="lwbtn">Help us empower local&nbsp;communities</a>
                 </div>
             </div>
         </div>
@@ -195,7 +212,7 @@ Template name: Inspired campaign
                     <h2>Global reach</h2>
                     <p>From uncovering criminal syndicates behind the decimation of elephant populations in Tanzania to exposing the illegal trade of animal parts and products in China, our commitment to protecting wildlife and the environment has no borders.</p>
                     <p>When we discover corruption, greed and exploitation that puts our natural world in jeopardy, we do everything we can to expose and report it to the relevant authorities.</p>
-                    <button class="lwbtn">Send a gift today</button>
+                    <a href="<?php echo get_page_link(1525); ?>" class="lwbtn">Send a gift today</a>
                 </div>
             </div>
             <div class="lw_mobile_hide lw_two-tiles_tile"><span class="lw_mob_hide">&nbsp;</span></div>

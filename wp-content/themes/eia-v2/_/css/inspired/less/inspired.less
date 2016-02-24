@@ -75,16 +75,6 @@
 .lwpush2 {margin-left: 18.66%;}
 .lwpush1 {margin-left: 10.33%;}
 
-//mostly temp
-//* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
-//html {margin-top:0 !important; height:100%; background: #f1f1f1 url(https://eia-international.org/wp-content/themes/eia-v2/_/img/bg-pattern-1.jpg) repeat scroll 0 0}
-//body {font: 0.625em Arial, sans-serif; height:100%;}
-//h1, h2, h3, h4 {font-family: 'PT Sans', sans-serif; font-weight:normal; padding-bottom: @mainpad + 0.4;}
-//h1 {font-size:@mainfont + 1.4;}
-//h2 {font-size:@mainfont + 1.2;}
-//h3 {font-size:@mainfont + 1;}
-//h4 {font-size:@mainfont + 0.8;}
-//p {font-size:@mainfont + 0.6; line-height:@mainlh + 0.6; padding-bottom: @mainpad + 0.6; font-family:Arial, sans-serif; font-weight:normal;}
 h2 {margin-bottom:@mainmarg;}
 h4 {display: block; -webkit-margin-before: 1.33em; -webkit-margin-after: 1.33em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
 p {display: block; -webkit-margin-before: 2em; -webkit-margin-after: 2em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
@@ -93,7 +83,7 @@ img {width:100%; height:auto;}
 .lwbutton {display: inline-block; border-radius: 500px; padding: 0.75em 1.5em; color: #FFF; background: #f93; font-weight: 700; text-shadow: rgba(153,76,0,0.8) 1px 1px 2px; border: 0;}
 
 .lwpagewrapper {overflow:hidden; .lwrelative; top: -55px;}
-.lwmain {margin: 0 auto; max-width: 1200px; padding-left: 20px; padding-right: 20px; position: relative;}
+.lwmain {margin: 0 auto; max-width: 1200px; padding-left: 20px; padding-right: 20px; position: relative; overflow:hidden;}
 
 //keepers
 .lwcf::after {clear: both; content: ""; display: table;}
@@ -107,22 +97,32 @@ img {width:100%; height:auto;}
 .lwmoduleheader h3 {font-size:@mainfont + 0.2; color:@white; line-height: @mainlh + 0.2; padding:10px 15px; .lwtxtc; margin:0;}
 .lwmoduleinner p {padding:15px;}
 .lwmoduleinner p:last-of-type {margin:0;}
-.lwfreq {.lwgrid3;}
+.lwfreq {.lwgrid3; margin-top: @mainmarg - 0.5;}
 .lwfreq label {font-size:@mainfont + 0.2; color:@white; padding-left:@mainpad - 0.5;}
 .lwfreq #lwr1 {padding-right:@mainpad;}
-#lwmonthly, #lwsingle {.lwgrid4;}
+#lwmonthly, #lwsingle {.lwgrid4; position:relative;}
 .lwamount {.lwgrid3; text-align: center; font-size:19px; line-height:40px; background-color:@white; color:@blue; cursor:pointer;}
 .lwamount:hover {background:#eee;} 
-.lwactive {background:@blue; color:@white;}
-.lwactive:hover {background:@blue;} 
-#lwamount1, #lwamount2, #lwamount3, #lwamount4 {background-color:@blue; color:@white;}
-.lwother {.lwgrid4; .lwpush1; text-align:right;}
+
+//getting those cheeky radio buttons in check!
+#lwmonthly input[type="radio"], #lwsingle input[type="radio"] {display:none;}
+#lwmonthly input[type="radio"] + label span, #lwsingle input[type="radio"] + label span {display:inline-block; width:100%; height:40px; margin:-1px 4px 0 0; background:@white; cursor:pointer; float:left;}
+#lwmonthly input[type="radio"] + label, #lwsingle input[type="radio"] + label {.lwgrid3; color:@blue; line-height: 40px; text-align:center; font-size:@mainfont + 0.2;}
+#lwmonthly label , #lwsingle label {.lwleft;}
+#lwmonthly input[type="radio"]:checked + label span, #lwsingle input[type="radio"]:checked + label span {background:@blue;}
+#lwmonthly input[type="radio"]:checked + label, #lwsingle input[type="radio"]:checked + label {color:@white;}
+#lwmonthly label, #lwsingle label {color:@white}
+
+//.lwactive {background:@blue; color:@white;}
+//.lwactive:hover {background:@blue;} 
+
+.lwother {.lwgrid4; .lwpush1;}
 .lwother .lwtxtfield {.lwgrid6; background-color:@white; position:relative;}
 .lwother .lwtxtfield input {font-size:20px; line-height:40px; border: none; .lwfullwidth; padding: 0 0 0 1.5em;}
 .lwother .lwtxtfield .lwpound {position:absolute; top:10px; left:10px; font-size:20px;}
-.lwbtn {.lwbutton; font-size:18px; cursor: pointer;}
+.lwbtn {.lwbutton; font-size:@mainfont; text-align: center; line-height: 22px; cursor: pointer;}
+.lwbtn:hover {background-color:#ffa852; color:@white;}
 .lwother .lwbtn {.lwgrid6; line-height:40px;}
-.lwbtn:hover {background-color:#ffa852;}
 
 .lw_subnav {.lwgrid3; .lwleft; background: @white; padding:@mainpad + 0.5; padding-bottom:0;}
 .lw_subnav > h3 {color:@blue; margin-bottom:0.65em; font-size:1.4em;}
@@ -168,8 +168,13 @@ img {width:100%; height:auto;}
 
 .lwnav {z-index: 1;}
 
+@media only screen and (max-width: 940px) {
+    .lwpagewrapper h2 {font-size:24px;}
+    .lwfreq {margin-top: 0}
+    .lwrb_fullwidth {display:block; padding-top:@mainpad - 0.7;}
+}
+
 @media only screen and (max-width: 900px) {
-    .lwrb_fullwidth {display:block;}
     .lwspend_pie, .lwspend_data {width:96%;}
     .lwspend_data {margin-top:@mainmarg + 2;} 
     .lwspend_pie img {max-width: 170px;}
@@ -179,9 +184,9 @@ img {width:100%; height:auto;}
 	.lwpush11, .lwpush10, .lwpush9, .lwpush8, .lwpush7, .lwpush6, .lwpush5, .lwpush4, .lwpush3, .lwpush2, .lwpush1 {margin:0;}
     .lw_mob_hide {display:none;}
     .lw_mob_show {display:block;}
+    .lwfreq {margin-top: @mainmarg - 0.5;}
     .lwfreq, .lwother {text-align:center;}
     #lwmonthly, #lwsingle, .lwother {width:60%; margin-left:20%; margin-top:@mainmarg + 1;}
-    #lwmonthly, #lwsingle {padding-left:13%;}
     .lwrb_fullwidth {display:inline;}
     .lwmodule {margin:0 auto; float:none;}
     .lw_two-tiles_inner_l, .lw_two-tiles_inner_r {padding:@mainmarg + 2.5 @mainmarg + 1.5;}
