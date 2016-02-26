@@ -677,22 +677,22 @@ img {
   color: #000001;
 }
 #lw_investigations_img {
-  background: url(../../img/inspired/tiger-skin-man.jpg) no-repeat #232323;
-  background-position: 200px 0;
+  background: url(../../img/inspired/Investigations.jpg) no-repeat #232323;
+  background-position: top center;
   background-size: cover;
 }
 #lw_campaigning_img {
-  background: url(../../img/inspired/deforestation-large.jpg) no-repeat #232323;
-  background-position: -100px 0;
+  background: url(../../img/inspired/Campaigning.jpg) no-repeat #232323;
+  background-position: center;
   background-size: cover;
 }
 #lw_cooperation_img {
-  background: url(../../img/inspired/customs.jpg) no-repeat #232323;
+  background: url(../../img/inspired/Cooperation.jpg) no-repeat #232323;
   background-position: center;
   background-size: cover;
 }
 #lw_global_img {
-  background: url(../../img/inspired/global.jpg) no-repeat #232323;
+  background: url(../../img/inspired/Tusks.jpg) no-repeat #232323;
   background-position: center;
   background-size: cover;
 }
