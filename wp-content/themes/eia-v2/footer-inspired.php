@@ -132,9 +132,25 @@ $('#postcode_lookup').getAddress({
 </script>
 <?php endif; ?>
 
+
+
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js?1fZigxmLZkRS"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/inspired/inspired-script.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/inspired/modernizr-mq.js"></script>
+
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16156241-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 
