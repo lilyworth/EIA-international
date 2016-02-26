@@ -305,11 +305,7 @@ h4 {
   -webkit-margin-end: 0px;
 }
 p {
-  display: block;
-  -webkit-margin-before: 2em;
-  -webkit-margin-after: 2em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  margin-bottom: 2em;
 }
 img {
   width: 100%;
