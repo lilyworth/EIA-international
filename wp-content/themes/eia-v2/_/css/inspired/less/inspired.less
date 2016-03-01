@@ -75,7 +75,7 @@
 .lwpush2 {margin-left: 18.66%;}
 .lwpush1 {margin-left: 10.33%;}
 
-h2 {margin-bottom:@mainmarg;}
+h2 {margin-bottom:@mainmarg; line-height:@mainlh + 0.6;}
 h4 {display: block; -webkit-margin-before: 1.33em; -webkit-margin-after: 1.33em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
 p {margin-bottom:2em;}
 img {width:100%; height:auto;}
@@ -106,13 +106,13 @@ img {width:100%; height:auto;}
 .lwamount:hover {background:#eee;} 
 
 //getting those cheeky radio buttons in check!
-#lwmonthly input[type="radio"], #lwsingle input[type="radio"] {display:none;}
-#lwmonthly input[type="radio"] + label span, #lwsingle input[type="radio"] + label span {display:inline-block; width:100%; height:40px; margin:-1px 4px 0 0; background:@white; cursor:pointer; float:left;}
-#lwmonthly input[type="radio"] + label, #lwsingle input[type="radio"] + label {.lwgrid3; color:@blue; line-height: 40px; text-align:center; font-size:@mainfont + 0.2;}
-#lwmonthly label , #lwsingle label {.lwleft;}
-#lwmonthly input[type="radio"]:checked + label span, #lwsingle input[type="radio"]:checked + label span {background:@blue;}
-#lwmonthly input[type="radio"]:checked + label, #lwsingle input[type="radio"]:checked + label {color:@white;}
-#lwmonthly label, #lwsingle label {color:@white}
+#lwmonthly input[type="radio"], #lwsingle input[type="radio"], #lwamounts input[type="radio"] {display:none;}
+#lwmonthly input[type="radio"] + label span, #lwsingle input[type="radio"] + label span, #lwamounts input[type="radio"] + label span {display:inline-block; width:100%; height:40px; margin:-1px 4px 0 0; background:@white; cursor:pointer; float:left;}
+#lwmonthly input[type="radio"] + label, #lwsingle input[type="radio"] + label, #lwamounts input[type="radio"] + label {.lwgrid3; color:@blue; line-height: 40px; text-align:center; font-size:@mainfont + 0.2;}
+#lwmonthly label , #lwsingle label, #lwamounts label {.lwleft;}
+#lwmonthly input[type="radio"]:checked + label span, #lwsingle input[type="radio"]:checked + label span, #lwamounts input[type="radio"]:checked + label span {background:@blue;}
+#lwmonthly input[type="radio"]:checked + label, #lwsingle input[type="radio"]:checked + label, #lwamounts input[type="radio"]:checked + label {color:@white;}
+#lwmonthly label, #lwsingle label, #lwamounts label {color:@white}
 
 //.lwactive {background:@blue; color:@white;}
 //.lwactive:hover {background:@blue;} 
@@ -157,6 +157,7 @@ img {width:100%; height:auto;}
 .lw_two-tiles_light1 {.lwleft; .lwfullwidth; background:@white; .lwhidden; .lwrelative; color:@black;}
 .lw_two-tiles_light2 {.lwleft; .lwfullwidth; background:@white; .lwrelative; left:50%; color:@black;}
 
+.lwbgimg {background-position: center; background-size: cover;}
 #lw_investigations_img {background:url(../../img/inspired/Investigations.jpg) no-repeat @grey; background-position: top center; background-size: cover;}
 #lw_campaigning_img {background:url(../../img/inspired/Campaigning.jpg) no-repeat @grey; background-position: center; background-size: cover;}
 #lw_cooperation_img {background:url(../../img/inspired/Cooperation.jpg) no-repeat @grey; background-position: center; background-size: cover;}
@@ -193,7 +194,7 @@ img {width:100%; height:auto;}
     .lw_two-tiles_inner_l, .lw_two-tiles_inner_r {padding:@mainmarg + 2.5 @mainmarg + 1.5;}
     .lw_two-tiles_tile, .lw_two-tiles_inner_l, .lw_two-tiles_inner_r, .lw_two-tiles_tile2 {width: 100%; max-width:none;} 
     .lw_two-tiles_dark2, .lw_two-tiles_light2, .lw_two-tiles_tile, .lw_two-tiles_tile2 {position:static;}
-    #lw_investigations_img, #lw_campaigning_img, #lw_cooperation_img, #lw_global_img {background: none;}
+    #lw_investigations_img, #lw_campaigning_img, #lw_cooperation_img, #lw_global_img, .lwbgimg {background: none;}
     .lwpunching p:last-of-type {-webkit-margin-before: 2em; -webkit-margin-after: 2em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;}
     .lwspend_pie, .lwspend_data {width:46%;} 
     .lwspend_data {margin-top:0;}
