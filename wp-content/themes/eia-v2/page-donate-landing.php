@@ -1,92 +1,69 @@
 <?php
 /*
 
-Template name: Donate page
+Template name: Donate landing
 
  */
  get_header(inspired); ?>
 
 <div class="lwpagewrapper">
-    <article style="background:url('<?php the_field('hero_image'); ?>') no-repeat center fixed; background-size: cover; padding:58px 0 20px 0;">
+    <article class="lwhero">
         <div class="lwheroinner">
-            <div id="lwmonthmod" class="lwrow <?php the_field('field_name'); ?>">
+            <div id="lwmonthmod" class="lwrow">
                 <div class="lwmodule">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('monthly_pricepoint_1_header'); ?></h3>
+                            <h3>Give £5 a month and help investigators undercover</h3>
                          </div>
-                        <?php
-                        $image = get_field('monthly_pricepoint_1_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('monthly_pricepoint_1_copy'); ?></p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/5-ask.jpg" alt="Caged tiger">
+                        <p>£5 a month could help pay for digital voice recorder pens used to record meetings with wildlife criminals and corrupt officials.</p>
                     </div>
                 </div>
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('monthly_pricepoint_2_header'); ?></h3>
+                            <h3>Give £10 a month and help gather valuable evidence</h3>
                          </div>
-                        <?php
-                        $image = get_field('monthly_pricepoint_2_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('monthly_pricepoint_2_copy'); ?></p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/10-ask-monthly.jpg" alt="Dead elephant">
+                        <p>£10 a month could help pay for photographic equipment such as memory cards that an investigator would need to document criminal activities.</p>
                     </div>
                 </div>
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('monthly_pricepoint_3_header'); ?></h3>
+                            <h3>Give £15 a month and help investigators on the front line</h3>
                          </div>
-                        <?php
-                        $image = get_field('monthly_pricepoint_3_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('monthly_pricepoint_3_copy'); ?></p>
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/15-ask.jpg" alt="Using GPS">
+                        <p>£15 a month could help pay for covert GPS systems that can help track illegal timber flows in real time.</p>
                     </div>
                 </div>
             </div>
-            <div id="lwsinglemod" class="lwrow <?php the_field('field_name'); ?>">
+            <div id="lwsinglemod" class="lwrow lwhide">
                 <div class="lwmodule">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('single_pricepoint_1_header'); ?></h3>
+                            <h3>£10 could pay for a memory card</h3>
                          </div>
-                        <?php
-                        $image = get_field('single_pricepoint_1_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('single_pricepoint_1_copy'); ?></p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/10-ask-single.jpg" alt="Man holding tiger skin">
+                        <p>Investigators need photographic equipment to record illegal activity and present evidence of animal trading to international agencies.</p>
                     </div>
                 </div>
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('single_pricepoint_2_header'); ?></h3>
+                            <h3>£25 could buy a USB drive</h3>
                          </div>
-                        <?php
-                        $image = get_field('single_pricepoint_2_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('single_pricepoint_2_copy'); ?></p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/25-ask.jpg" alt="Filming">
+                        <p>These are used to safely store and transport EIA reports and films that we use to lobby decision makers.</p>
+                    </div>
                 </div>
                 <div class="lwmodule lw_mob_hide">
                     <div class="lwmoduleinner">
                          <div class="lwmoduleheader">
-                            <h3><?php the_field('single_pricepoint_3_header'); ?></h3>
+                            <h3>£50 could pay for a pair of&nbsp;binoculars</h3>
                          </div>
-                        <?php
-                        $image = get_field('single_pricepoint_3_image');
-                        if( !empty($image) ): ?>
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        <?php endif; ?>                        
-                        <p><?php the_field('single_pricepoint_3_copy'); ?></p>
+                         <img src="<?php echo get_template_directory_uri(); ?>/_/img/inspired/50-ask.jpg" alt="Logging">
+                        <p>Often our investigators need to observe illegal activity such as logging from a safe distance, but still need to be able to recognise key perpetrators.</p>
                     </div>
                 </div>
             </div>
