@@ -342,6 +342,9 @@ img {
 .lwhide {
   display: none;
 }
+.lwhide {
+  display: block;
+}
 .lw_mob_show {
   display: none;
 }
